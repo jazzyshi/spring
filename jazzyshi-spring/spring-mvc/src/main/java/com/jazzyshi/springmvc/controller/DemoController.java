@@ -107,7 +107,7 @@ public class DemoController {
      *   2.1 重定向 添加"redirect:资源路径"
      *   2.2 转发   添加"forward:资源路径"或者省略forward:
      *
-     * SpringMvc会提供默认的试图解析器
+     * SpringMvc会提供默认的视图解析器
      * 程序员也可以自定义视图解析器 见jazzyshi-mvc.xml
      *
      * 如果不希望执行自定义视图解析器，在方法返回值的前面添加forward:或redirect:
