@@ -24,6 +24,6 @@
     </bean>
     <!-- 由spring管理service实现类 -->
     <bean id="airportService" class="com.jazzyshi.springmybatis.service.impl.AirportServiceImpl">
-        <property name="airportMapper" ref="airportMapper"></property>
+        <property name="airportMapper" ref="airportMapper"/>
     </bean>
 </beans>

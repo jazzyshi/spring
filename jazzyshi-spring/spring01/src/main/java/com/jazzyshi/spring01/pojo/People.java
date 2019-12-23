@@ -1,6 +1,5 @@
 package com.jazzyshi.spring01.pojo;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class People {
@@ -48,6 +47,7 @@ public class People {
         this.name = name;
         System.out.println("执行有参构造函数integer");
     }
+
     public int getId() {
         return id;
     }
@@ -60,19 +60,9 @@ public class People {
         return name;
     }
 
-    public House getHouse() {
-        return house;
-    }
-
-    public void setHouse(House house) {
-        this.house = house;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
-
-
 
     public Set<?> getSets() {
         return sets;
@@ -90,18 +80,24 @@ public class People {
         this.lists = lists;
     }
 
-
     public Map getMaps() {
         return maps;
     }
 
-    public void setMaps(Map map) {
-        this.maps = map;
+    public void setMaps(Map maps) {
+        this.maps = maps;
     }
 
-
-
     public void setProps(Properties props) {
+        this.props = props;
+    }
+
+    public House getHouse() {
+        return house;
+    }
+
+    public void setHouse(House house) {
+        this.house = house;
     }
 
     @Override

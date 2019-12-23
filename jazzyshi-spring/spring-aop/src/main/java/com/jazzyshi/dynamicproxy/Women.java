@@ -15,5 +15,6 @@ public class Women {
 		Gongneng gongneng = (Gongneng) Proxy.newProxyInstance(Women.class.getClassLoader(), new Class[]{Gongneng.class}, mishu);
 
 		gongneng.chifan();
+		gongneng.mubiao();
 	}
 }

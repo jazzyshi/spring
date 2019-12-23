@@ -59,7 +59,7 @@
                 <value>6</value>
             </array>
         </property>
-        <!--2.5属性是数组-->
+        <!--2.5属性是map-->
         <property name="maps">
             <map>
                 <entry key="address" value="tanggouzheng">
@@ -77,7 +77,7 @@
         </property>
     </bean>
 
-    <!--DI  当A类需要宁外一个B类时，把B赋值给A的过程叫依赖注入-->
+    <!--DI  当A类需要另外一个B类时，把B赋值给A的过程叫依赖注入-->
     <bean id="peopleDI" class="com.jazzyshi.spring01.pojo.People">
        <property name="house" ref="houseid"/>
     </bean>

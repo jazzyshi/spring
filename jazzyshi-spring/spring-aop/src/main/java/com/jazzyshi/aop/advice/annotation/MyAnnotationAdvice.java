@@ -10,22 +10,22 @@ import org.springframework.stereotype.Component;
 @Component
 @Aspect
 public class MyAnnotationAdvice {
-    @Before("com.jazzyshi.aop.DemoAnn.demo()")
+    @Before("com.jazzyshi.aop.advice.annotation.DemoAnnotation.demo()")
     public void myBefore(){
         System.out.println("前置");
     }
 
-    @After("com.jazzyshi.aop.DemoAnn.demo()")
+    @After("com.jazzyshi.aop.advice.annotation.DemoAnnotation.demo()")
     public void myAfter(){
         System.out.println("后置");
     }
 
-    @AfterThrowing("com.jazzyshi.aop.DemoAnn.demo()")
+    @AfterThrowing("com.jazzyshi.aop.advice.annotation.DemoAnnotation.demo()")
     public void myThrown(){
         System.out.println("异常通知");
     }
 
-    @Around("com.jazzyshi.aop.DemoAnn.demo()")
+    @Around("com.jazzyshi.aop.advice.annotation.DemoAnnotation.demo()")
     public Object myArround(ProceedingJoinPoint point) throws Throwable {
         System.out.println("前置");
         Object result = point.proceed();
