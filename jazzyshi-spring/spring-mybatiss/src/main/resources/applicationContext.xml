@@ -15,7 +15,7 @@
         <!-- 数据库连接信息来源于dataSource -->
         <property name="dataSource" ref="dataSouce"/>
     </bean>
-    <!-- 扫描器相当于mybatis.xml中 mappers下package标签,扫描ccom.jazzyshi.springmybatis.mapper包后会给对应接口创建对象-->
+    <!-- 扫描器相当于mybatis.xml中 mappers下package标签,扫描com.jazzyshi.springmybatis.mapper包后会给对应接口创建对象-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <!-- 要扫描哪个包 -->
         <property name="basePackage" value="com.jazzyshi.springmybatis.mapper"/>
