@@ -2,62 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="552b79d5-1808-4c9b-9c92-270428733b9e" name="Default Changelist" comment="修改aop相关汉字错误">
-      <change afterPath="$PROJECT_DIR$/spring-aop/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mybatiss/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jazzyshi-spring.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/spring-aop.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/applicationAnnotation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/aop/DemoAnn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/aop/DemoAop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/aop/DemoAspectJ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/aop/advice/annotation/DemoAnnotation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/aop/advice/annotation/MyAnnotationAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/aop/advice/aspectj/MyAspectJAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/aop/advice/schemabase/MyAfterAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/aop/advice/schemabase/MyArroundAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/aop/advice/schemabase/MyAspectjAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/aop/advice/schemabase/MyBeforeAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/aop/advice/schemabase/MyThrowAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/cglibproxy/Laozong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/cglibproxy/Mishu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/cglibproxy/Women.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/dynamicproxy/Gongneng.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/dynamicproxy/Laozong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/dynamicproxy/Mishu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/dynamicproxy/Women.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/staticproxy/Gongneng.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/staticproxy/Laozong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/staticproxy/MiShu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/target/classes/com/jazzyshi/staticproxy/Women.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/spring-mvc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/target/classes/com/jazzyshi/springmvc/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/target/classes/com/jazzyshi/springmvc/controller/Demo1Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/target/classes/com/jazzyshi/springmvc/controller/DemoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/target/classes/com/jazzyshi/springmvc/controller/FileUploadAndDownLoadController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/target/classes/com/jazzyshi/springmvc/pojo/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/target/classes/com/jazzyshi/springmvc/pojo/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/target/classes/com/jazzyshi/springmvc/pojo/People.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/target/classes/jazzyshi-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatiss/spring-mybatiss.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatiss/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatiss/target/classes/com/jazzyshi/springmybatis/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatiss/target/classes/com/jazzyshi/springmybatis/mapper/AirportMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatiss/target/classes/com/jazzyshi/springmybatis/pojo/Airport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatiss/target/classes/com/jazzyshi/springmybatis/service/AirportService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatiss/target/classes/com/jazzyshi/springmybatis/service/impl/AirportServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatiss/target/classes/com/jazzyshi/springmybatis/servlet/AirportServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring01/spring01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring01/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring01/target/classes/com/jazzyshi/spring01/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring01/target/classes/com/jazzyshi/spring01/pojo/House.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring01/target/classes/com/jazzyshi/spring01/pojo/People.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring01/target/classes/com/jazzyshi/spring01/pojo/PeopleFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring01/target/test-classes/com/jazzyshi/spring01/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../springframeworker/settings.gradle" />
   </component>
   <component name="RunManager" selected="Application.App (1)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -195,12 +142,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="63d592fb-068c-43b8-9f2e-3ada9a76725b" name="Default Changelist" comment="" />
+      <changelist id="552b79d5-1808-4c9b-9c92-270428733b9e" name="Default Changelist" comment="修改aop相关汉字错误" />
       <created>1577076724369</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577076724369</updated>
       <workItem from="1577076730904" duration="6879000" />
+      <workItem from="1577257454966" duration="1010000" />
+      <workItem from="1577343654113" duration="1203000" />
     </task>
     <task id="LOCAL-00001" summary="修改aop相关汉字错误">
       <created>1577094631972</created>
@@ -240,22 +189,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="505" y="118" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1577094628106" />
-    <state width="1875" height="284" key="GridCell.Tab.0.bottom" timestamp="1577157458094">
+    <state x="739" y="279" key="FileChooserDialogImpl" timestamp="1577166991313">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1875" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1577157458094" />
-    <state width="1875" height="284" key="GridCell.Tab.0.center" timestamp="1577157458093">
+    <state x="739" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1577166991313" />
+    <state width="1875" height="284" key="GridCell.Tab.0.bottom" timestamp="1577166996746">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1875" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1577157458093" />
-    <state width="1875" height="284" key="GridCell.Tab.0.left" timestamp="1577157458093">
+    <state width="1875" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1577166996746" />
+    <state width="1875" height="284" key="GridCell.Tab.0.center" timestamp="1577166996746">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1875" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1577157458093" />
-    <state width="1875" height="284" key="GridCell.Tab.0.right" timestamp="1577157458093">
+    <state width="1875" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1577166996746" />
+    <state width="1875" height="284" key="GridCell.Tab.0.left" timestamp="1577166996746">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1875" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1577157458093" />
+    <state width="1875" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1577166996746" />
+    <state width="1875" height="284" key="GridCell.Tab.0.right" timestamp="1577166996746">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1577166996746" />
     <state width="1818" height="446" key="GridCell.Tab.1.bottom" timestamp="1577121335123">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
