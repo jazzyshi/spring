@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx" xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
     <!-- 数据源封装类 .数据源:获取数据库连接,spring-jdbc.jar中-->
-    <bean id="dataSouce" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
         <property name="url" value="jdbc:mysql://localhost:3306/nb"/>
         <property name="username" value="root"/>
@@ -13,9 +15,9 @@
     <!-- 创建SqlSessionFactory对象 -->
     <bean id="factory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <!-- 数据库连接信息来源于dataSource -->
-        <property name="dataSource" ref="dataSouce"/>
+        <property name="dataSource" ref="dataSource"/>
     </bean>
-    <!-- 扫描器相当于mybatis.xml中 mappers下package标签,扫描ccom.jazzyshi.springmybatis.mapper包后会给对应接口创建对象-->
+    <!-- 扫描器相当于mybatis.xml中 mappers下package标签,扫描com.jazzyshi.springmybatis.mapper包后会给对应接口创建对象-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <!-- 要扫描哪个包 -->
         <property name="basePackage" value="com.jazzyshi.springmybatis.mapper"/>
@@ -26,4 +28,41 @@
     <bean id="airportService" class="com.jazzyshi.springmybatis.service.impl.AirportServiceImpl">
         <property name="airportMapper" ref="airportMapper"/>
     </bean>
+
+    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <!--配置声明氏事务-->
+    <tx:advice transaction-manager="txManager" id="myAdvice">
+        <tx:attributes>
+            <!--哪些方法需要有事务控制
+            isolation事务隔离级别：
+              1.DEFAULT:默认值，由底层数据库自动判断应该使用什么隔离级别
+              2.READ_UNCOMMITTED:可以读取未提交的数据。可能出现脏读、不可重复读和幻读。效率最高
+              3.READ_COMMITTED:只能读取其它事务已提交的事务。可以防止脏读，可能出现不可重复读和幻读
+              4.REPEATABLE_READ:读取的数据被添加锁，防止其它事务修改此数据，可以防止脏读和不可重复读，可能出现幻读
+              5.SERIALIZABLE:排队操作，对整个表加锁。最安全的但效率最低的
+            propagation控制事务传播级别
+              1.REQUIRED(默认值)
+              2.SUPPORTS
+              3.MANDATORY
+              4.REQUIRES_NEW
+              5.NOT_SUPPORT
+              6.NEVER
+              7.NESTED
+            rollback-for：当出现什么异常时需要进行回滚
+            no-rollback-for：当出现什么异常时不回滚操作
+            -->
+            <tx:method name="ins*" propagation="REQUIRED" isolation="DEFAULT" rollback-for="异常类型全限定路径" no-rollback-for=""/>
+            <tx:method name="del*"/>
+            <tx:method name="upd*"/>
+            <tx:method name="sel*" read-only="true"/><!--是否是只读事务，会对性能有提升（建议查询的方法加上）-->
+        </tx:attributes>
+    </tx:advice>
+    <aop:config>
+        <!--切点范围要设置的大一些-->
+        <aop:pointcut id="myPoint" expression="execution(* com.jazzyshi.springmybatis.service.impl.*.*(..))"/>
+        <aop:advisor advice-ref="myAdvice" pointcut-ref="myPoint"/>
+    </aop:config>
 </beans>

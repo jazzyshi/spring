@@ -2,10 +2,13 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:aop="http://www.springframework.org/schema/aop"
+	   xmlns:context="http://www.springframework.org/schema/context"
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/aop
-        http://www.springframework.org/schema/aop/spring-aop.xsd">
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+	    http://www.springframework.org/schema/context
+	    http://www.springframework.org/schema/context/spring-context.xsd">
     <bean id="demoAop" class="com.jazzyshi.aop.DemoAop"/>
 
 	<!--
@@ -22,6 +25,8 @@
 	<!-- Schema-based -->
 	<bean id="myBeforeAdvice" class="com.jazzyshi.aop.advice.schemabase.MyBeforeAdvice"/>
 	<bean id="myAfterAdvice" class="com.jazzyshi.aop.advice.schemabase.MyAfterAdvice"/>
+	<!--设置为true使用cglib 设置为false使用jdK(默认值) -->
+	<aop:aspectj-autoproxy proxy-target-class="true"/>
 	<!--配置切面-->
 	<aop:config>
 		<!--配置切点-->
@@ -60,4 +65,5 @@
 
     	</aop:aspect>
     </aop:config>
+
 </beans>
