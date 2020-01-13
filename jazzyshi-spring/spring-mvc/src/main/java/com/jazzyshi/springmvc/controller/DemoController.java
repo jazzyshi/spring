@@ -26,6 +26,7 @@ import java.util.List;
  */
 
 @Controller
+@RequestMapping("/book")
 public class DemoController {
 
     @RequestMapping("demo")
@@ -40,15 +41,15 @@ public class DemoController {
     public String demo1(@RequestParam(value = "name1") String name,
                         @RequestParam("age1") int age){
         System.out.println("执行demo1"+" "+name+" "+age);
-        return "main1.jsp";
+        return "main.jsp";
     }
     @RequestMapping("demo2")
     //如果方法参数是基本数据类型（不是封装类）可以通过@RequestParam设置默认值----防止没有参数时500
     //如果强制要求必须有某个参数（required=true）
     public String demo2(@RequestParam(defaultValue = "2") int pageSize,
-                        @RequestParam(defaultValue = "1",required = true) int pageNumber){
-        System.out.println(pageSize + " " + pageSize);
-        return "main2.jsp";
+                        @RequestParam(required = true) int pageNumber){
+        System.out.println(pageSize + " " + pageNumber);
+        return "main.jsp";
     }
 
     @RequestMapping("demo3")
@@ -97,12 +98,12 @@ public class DemoController {
     @RequestMapping("demo7/{id1}/{name}")
     public String demo7(@PathVariable String name,@PathVariable("id1") int age){
         System.out.println(name + " " + age );
-        return "";
+        return "main.jsp";
     }
 
     /**
      * 跳转方式：
-     * 1.默认调整方式请求转发
+     * 1.默认跳转方式请求转发
      * 2.设置返回值字符串类容
      *   2.1 重定向 添加"redirect:资源路径"
      *   2.2 转发   添加"forward:资源路径"或者省略forward:

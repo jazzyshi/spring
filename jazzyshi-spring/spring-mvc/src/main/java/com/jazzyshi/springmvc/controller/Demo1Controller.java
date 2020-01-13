@@ -48,7 +48,7 @@ public class Demo1Controller {
         //application作用域
         ServletContext application = req.getServletContext();
         application.setAttribute("application","application的值");
-        return "/index.jsp";
+        return "main.jsp";
     }
 
     //2.使用map组合：
@@ -57,21 +57,22 @@ public class Demo1Controller {
     @RequestMapping("demo2")
     public String demo2(Map<String,Object> map){
         System.out.println(map.getClass());
-        map.put("map","map的值");
-        return "/index.jsp";
+        map.put("map1","map1的值");
+        map.put("map2","map2的值");
+        return "main.jsp";
     }
 
     //3.使用SpringMVC中Model接口
     @RequestMapping("demo3")
     public String demo3(Model model){
-        model.addAttribute("model","model的值");
-        return "/index.jsp";
+        model.addAttribute("modelA","model的值");
+        return "main.jsp";
     }
 
     //4.使用SpringMVC中ModelAndView接口
-    @RequestMapping("demo3")
-    public ModelAndView demo3(){
-        ModelAndView modelAndView = new ModelAndView("/index.jsp");
+    @RequestMapping("demo4")
+    public ModelAndView demo4(){
+        ModelAndView modelAndView = new ModelAndView("main.jsp");
         modelAndView.addObject("mav","mav的值");
         return modelAndView;
     }

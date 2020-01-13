@@ -30,6 +30,13 @@
 	<!--配置切面-->
 	<aop:config>
 		<!--配置切点-->
+		<!--1.execution(返回类型 包名.类名.方法名(参数表)))
+		    2.语法： target(包名.接口名)
+		    3.语法： this(包名.接口名) 实现了某接口的代理对象，会作为切点。 和 target 很类似。
+		    4.语法： within(包名.*) - 代表在包中的任意接口或类型都作为切点。
+		    5.args(类型,类型) - 代表方法的参数表符合要求的时候，作为切点。
+		      execution( * xxxx.*.login(..) ) args(string,string)。
+		-->
 		<aop:pointcut id="mypoint" expression="execution(* com.jazzyshi.aop.DemoAop.study())"/>
 		<!--配置通知-->
 		<aop:advisor advice-ref="myAfterAdvice" pointcut-ref="mypoint"/>

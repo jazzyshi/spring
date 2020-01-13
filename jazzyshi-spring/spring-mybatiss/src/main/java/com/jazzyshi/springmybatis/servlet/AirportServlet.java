@@ -30,6 +30,6 @@ public class AirportServlet extends HttpServlet {
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		req.setAttribute("list", airportService.show());
-		req.getRequestDispatcher("index.jsp").forward(req, resp);
+		req.getRequestDispatcher("main.jsp").forward(req, resp);
 	}
 }
