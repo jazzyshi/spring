@@ -5,7 +5,7 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!--
      创建对象方法一：构造函数
-     id表示获取到对象标识 class 创建哪个类的对象
+     id表示获取到对象标识 class表示创建哪个类的对象
      -->
     <bean id="people1" class="com.jazzyshi.spring01.pojo.People">
         <!--1.什么都不填，默认构造函数-->
@@ -15,11 +15,11 @@
                 index="0" name="id" type="int" value="123">
         </constructor-arg>
         <constructor-arg
-                index="1" name="name" type="java.lang.String" value="123">
+                index="1" name="name" type="java.lang.String" value="史帅哥">
         </constructor-arg>
     </bean>
     <!--
-        创建对象方法二：实列工厂
+        创建对象方法二：实列工厂(需要创建工厂)
     -->
     <bean id="factory2" class="com.jazzyshi.spring01.pojo.PeopleFactory"/>
     <bean id="people2" factory-bean="factory2" factory-method="newInstance"/>
