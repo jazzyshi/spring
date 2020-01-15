@@ -15,8 +15,9 @@ public class Laozong implements Gongneng {
 	public Laozong() {
 		super();
 	}
+	@Override
 	public void zhidingxiaomubiao(){
-		System.out.println("制定小目标");
+		System.out.println("老总制定小目标");
 	}
 	@Override
 	public void chifan() {

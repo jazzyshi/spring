@@ -10,16 +10,16 @@ public class MiShu implements Gongneng{
 
 	@Override
 	public void zhidingxiaomubiao() {
-		System.out.println("约定时间");
+		System.out.println("秘书约定时间");
 		laozong.zhidingxiaomubiao();
-		System.out.println("把访客信息备注");
+		System.out.println("秘书把访客信息备注");
 	}
 
 	@Override
 	public void chifan() {
-		System.out.println("约定时间");
+		System.out.println("秘书约定时间");
 		laozong.chifan();
-		System.out.println("把访客信息备注");
+		System.out.println("秘书把访客信息备注");
 	}
 	
 	

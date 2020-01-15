@@ -18,8 +18,6 @@ public class Mishu implements MethodInterceptor {
 
 		System.out.println("预约时间");
 		//invoke()调用子类重写的方法
-		//Object result = arg1.invoke(arg0, arg2);
-		//Object result = arg3.invokeSuper(arg0, arg2);
 		Object result = arg3.invokeSuper(arg0, arg2);
 		System.out.println("备注");
 		return result;

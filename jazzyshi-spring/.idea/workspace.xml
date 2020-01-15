@@ -2,14 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="552b79d5-1808-4c9b-9c92-270428733b9e" name="Default Changelist" comment="修改aop相关汉字错误">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/resources/config/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_mybatiss_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_mybatiss_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_2_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_1_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/com/jazzyshi/cglibproxy/Mishu.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/jazzyshi/cglibproxy/Mishu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/com/jazzyshi/dynamicproxy/Laozong.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/jazzyshi/dynamicproxy/Laozong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/com/jazzyshi/dynamicproxy/Mishu.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/jazzyshi/dynamicproxy/Mishu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/com/jazzyshi/staticproxy/Laozong.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/jazzyshi/staticproxy/Laozong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/com/jazzyshi/staticproxy/MiShu.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/jazzyshi/staticproxy/MiShu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatiss/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatiss/src/main/resources/applicationContext.xml" afterDir="false" />
+>>>>>>> 5c314bca30cf6dde77f7ff2147abc308c83325e8
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -32,6 +83,8 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> 5c314bca30cf6dde77f7ff2147abc308c83325e8
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -58,6 +111,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-boot" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -68,6 +122,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jazzyshi.springmybatis.servlet.*" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-aop/pom.xml" />
+  </component>
+  <component name="RunManager" selected="Application.Women (2)">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jazzyshi.springmvc.App" />
+      <module name="spring-mvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jazzyshi.springmvc.*" />
+>>>>>>> 5c314bca30cf6dde77f7ff2147abc308c83325e8
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +140,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jazzyshi.springmybatis.App" />
       <module name="spring-mybatiss" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jazzyshi.springmybatis.*" />
+=======
+    <configuration name="DemoAnn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jazzyshi.aop.DemoAnn" />
+      <module name="spring-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jazzyshi.aop.*" />
+>>>>>>> 5c314bca30cf6dde77f7ff2147abc308c83325e8
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,6 +202,7 @@
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Application.App (1)" />
       <item itemvalue="Application.DemoAop" />
       <item itemvalue="Application.DemoAspectJ" />
@@ -141,6 +216,21 @@
         <item itemvalue="Application.DemoAspectJ" />
         <item itemvalue="Application.DemoAop" />
         <item itemvalue="Application.App (1)" />
+=======
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.DemoAnn" />
+      <item itemvalue="Application.Women" />
+      <item itemvalue="Application.Women (1)" />
+      <item itemvalue="Application.Women (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Women (2)" />
+        <item itemvalue="Application.Women (1)" />
+        <item itemvalue="Application.Women" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.DemoAnn" />
+>>>>>>> 5c314bca30cf6dde77f7ff2147abc308c83325e8
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +238,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.014762165" />
           <treeState>
             <expand />
             <select />
@@ -166,6 +257,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577076724369</updated>
+<<<<<<< HEAD
       <workItem from="1577076730904" duration="6879000" />
       <workItem from="1577257454966" duration="1010000" />
       <workItem from="1577343654113" duration="1203000" />
@@ -174,6 +266,12 @@
       <workItem from="1578965116398" duration="7260000" />
       <workItem from="1579051983300" duration="3227000" />
       <workItem from="1579077525154" duration="161000" />
+=======
+      <workItem from="1577076730904" duration="6763000" />
+      <workItem from="1577192340534" duration="29000" />
+      <workItem from="1578919584051" duration="289000" />
+      <workItem from="1578919900319" duration="7764000" />
+>>>>>>> 5c314bca30cf6dde77f7ff2147abc308c83325e8
     </task>
     <task id="LOCAL-00001" summary="修改aop相关汉字错误">
       <created>1577094631972</created>
@@ -182,14 +280,7 @@
       <option name="project" value="LOCAL" />
       <updated>1577094631973</updated>
     </task>
-    <task id="LOCAL-00002" summary="修改mvc相关汉字错误">
-      <created>1577096225139</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1577096225139</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,22 +288,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改aop相关汉字错误" />
-    <MESSAGE value="修改mvc相关汉字错误" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改mvc相关汉字错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改aop相关汉字错误" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577096045078">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="413" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577096045078" />
-    <state x="764" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1577080342875">
+    <state x="764" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1578921769021">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="764" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1577080342875" />
-    <state x="505" y="118" key="CommitChangelistDialog2" timestamp="1577096223898">
+    <state x="764" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1578921769021" />
+    <state x="805" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578921716777">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="805" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1578921716777" />
+    <state x="505" y="118" key="CommitChangelistDialog2" timestamp="1577094628106">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="505" y="118" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1577094628106" />
+<<<<<<< HEAD
     <state x="739" y="279" key="FileChooserDialogImpl" timestamp="1578885961466">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -233,6 +328,28 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1875" height="288" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1579075560163" />
+=======
+    <state x="739" y="279" key="FileChooserDialogImpl" timestamp="1578919869846">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="739" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1578919869846" />
+    <state width="1875" height="327" key="GridCell.Tab.0.bottom" timestamp="1578923397332">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578923397332" />
+    <state width="1875" height="327" key="GridCell.Tab.0.center" timestamp="1578923397332">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="327" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578923397332" />
+    <state width="1875" height="327" key="GridCell.Tab.0.left" timestamp="1578923397332">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="327" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578923397332" />
+    <state width="1875" height="327" key="GridCell.Tab.0.right" timestamp="1578923397332">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="327" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578923397332" />
+>>>>>>> 5c314bca30cf6dde77f7ff2147abc308c83325e8
     <state width="1818" height="446" key="GridCell.Tab.1.bottom" timestamp="1577121335123">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -272,11 +389,12 @@
     <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1577094641981">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1577096250512" />
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1577094641981" />
     <state x="639" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1577076740353">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="639" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577076740353" />
+<<<<<<< HEAD
     <state x="616" y="243" key="run.anything.popup" timestamp="1579068727148">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -285,13 +403,24 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1579075271207" />
+=======
+    <state x="333" y="133" key="new project wizard" timestamp="1578925265475">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="333" y="133" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1578925265475" />
+>>>>>>> 5c314bca30cf6dde77f7ff2147abc308c83325e8
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+<<<<<<< HEAD
           <url>file://$PROJECT_DIR$/spring-aop/src/main/java/com/jazzyshi/cglibproxy/Laozong.java</url>
           <line>5</line>
+=======
+          <url>file://$PROJECT_DIR$/spring-mybatiss/src/main/java/com/jazzyshi/springmybatis/service/impl/AirportServiceImpl.java</url>
+          <line>23</line>
+>>>>>>> 5c314bca30cf6dde77f7ff2147abc308c83325e8
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
