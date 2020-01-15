@@ -8,7 +8,8 @@
     <servlet-name>jazzyhsi-mvc</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <!--
-    如果不配置<init-param>会在/WEB-INF/<servlet-name>-servlet.xml
+    如果不设置<init-param>标签，则必须在/WEB-INF/下创建XXX-servlet.xml文件,
+    xxx是servlet-name中配置的名字（这里是jazzyhsi-mvc）
     -->
     <init-param>
       <param-name>contextConfigLocation</param-name>
