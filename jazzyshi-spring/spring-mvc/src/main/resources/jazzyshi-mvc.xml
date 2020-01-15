@@ -26,4 +26,25 @@
         <property name="prefix" value="/view/" />
 <!--        <property name="suffix" value=".jsp" />-->
     </bean>
+
+    <!--配置拦截器-拦截所有控制器-->
+    <mvc:interceptors>
+        <bean class="com.jazzyshi.springmvc.interceptor.DemoInterceptor"/>
+    </mvc:interceptors>
+    <!--配置拦截器-拦截特定url-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/demo"/>
+            <mvc:mapping path="/demo1"/>
+            <bean class="com.jazzyshi.springmvc.interceptor.DemoInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+    <!--
+     配置拦截器栈（多个拦截器同时生效）
+     顺序：先进后出
+     执行顺序和在springmvc.xml中配置的顺序有关
+     For Examole:
+     先配置拦截器A，再配置B
+     preHandle(A) > preHandle(B) > 控制器方法 > postHandle(B) > postHanle(A) > JSP > afterCompletion(B) > afterCompletion(A)
+    -->
 </beans>

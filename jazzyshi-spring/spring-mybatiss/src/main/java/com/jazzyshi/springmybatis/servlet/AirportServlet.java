@@ -32,4 +32,13 @@ public class AirportServlet extends HttpServlet {
 		req.setAttribute("list", airportService.show());
 		req.getRequestDispatcher("main.jsp").forward(req, resp);
 	}
+
+	public static void main(String[] args) {
+		ThreadLocal<String> threadLocal = new ThreadLocal<>();
+		threadLocal.set("测试");
+
+		new Thread(()->{
+			System.out.println(threadLocal.get());
+		}).start();
+	}
 }

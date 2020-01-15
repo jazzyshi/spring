@@ -21,7 +21,7 @@ public class Women {
 		Enhancer enhancer = new Enhancer();
 		enhancer.setSuperclass(Laozong.class);
 		enhancer.setCallback(new Mishu());
-		
+
 		Laozong laozong = (Laozong) enhancer.create();
 		laozong.chifan("史老板");
 		
